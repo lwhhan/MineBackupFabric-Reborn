@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "minebackup",
+  "version": "${version}",
+  "name": "MineBackup",
+  "description": "MineBackup for Fabric 1.20.1 (ported from the Forge 1.20 v3.4.1 source). Bridges Minecraft to the MineBackup desktop application for world backups and restores.",
+  "authors": [
+    "Leafuke",
+    "lwhhan"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.leafuke.minebackup.MineBackup"
+    ],
+    "client": [
+      "com.leafuke.minebackup.client.MineBackupClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.20.1",
+    "fabric-api": "*",
+    "java": ">=17"
+  }
+}

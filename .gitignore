@@ -1,0 +1,61 @@
+# =====================
+# 构建产物（Gradle / Loom）
+# =====================
+/build/
+**/build/
+out/
+.gradle/
+gradle-cache/
+
+# 编译输出
+*.class
+*.jar
+# 保留 Gradle Wrapper 的 jar（必须提交，否则别人跑不了 gradlew）
+!gradle-wrapper.jar
+
+# =====================
+# Fabric 开发运行目录
+# =====================
+/run/
+run/
+
+# =====================
+# IntelliJ IDEA
+# =====================
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# =====================
+# Eclipse
+# =====================
+.classpath
+.project
+.settings/
+*.launch
+
+# =====================
+# VS Code
+# =====================
+.vscode/
+.bin/
+
+# =====================
+# 系统垃圾文件
+# =====================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =====================
+# 日志 / 临时
+# =====================
+*.log
+crash-reports/
+logs/
+
+# =====================
+# 本地配置（别提交）
+# =====================
+gradle.properties.local
